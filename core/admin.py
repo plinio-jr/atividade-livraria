@@ -9,7 +9,6 @@ admin.site.register(Categoria)
 admin.site.register(Editora)
 admin.site.register(Livro)
 
-
 class UsuarioAdmin(UserAdmin):
     fieldsets = (
         (None, {"fields": ("username", "password")}),
@@ -30,5 +29,5 @@ class UsuarioAdmin(UserAdmin):
         (_("Important dates"), {"fields": ("last_login", "date_joined")}),
     )
 
-
 admin.site.register(Usuario, UsuarioAdmin)
+
