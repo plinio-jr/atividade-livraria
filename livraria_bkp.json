@@ -1,0 +1,44 @@
+[
+{
+  "model": "core.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$XHRFpNtY5pISewxvBzo6lA$KKZKgTP8Tw9RJ3JhO7QwnG+QEc3n8HjQFzVLjs01EuM=",
+    "last_login": "2022-10-18T16:53:30.790Z",
+    "is_superuser": true,
+    "username": "plinio",
+    "first_name": "",
+    "last_name": "",
+    "email": "juniorplinio.136@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-09-27T17:35:35Z",
+    "cpf": "8941720836",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$HWrl7fJceo08WtLCO1aGdt$klDEuCC+Lf9bUW4NTGMnUWxPG46G55v2x6GZkJPzU9g=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin1",
+    "first_name": "",
+    "last_name": "",
+    "email": "administrador@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-03T11:52:05Z",
+    "cpf": "67813270923",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
